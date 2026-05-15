@@ -1,0 +1,46 @@
+.gitignore
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+.parcel-cache
+
+# Backend virtual environment
+venv/
+env/
+ENV/
+
+# Firebase
+firebase-debug.log
+.firebase/
+
+# Testing
+coverage/
+.pytest_cache/
+
+# Misc
+*.log
+.DS_Store
